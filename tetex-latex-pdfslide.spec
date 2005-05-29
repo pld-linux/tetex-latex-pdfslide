@@ -3,7 +3,7 @@
 Summary:	Presentations with pdftex
 Name:		tetex-latex-%{short_name}
 Version:	0.5
-Release:	0.1
+Release:	1
 License:	LaTeX Project Public License
 Group:		Applications/Publishing/TeX
 Source0:	http://sarovar.org/download.php/106/%{short_name}-%{version}.sty
