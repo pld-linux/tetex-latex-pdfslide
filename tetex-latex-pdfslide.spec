@@ -1,4 +1,5 @@
 Summary:	Presentations with pdftex
+Summary(pl):	Prezentacje przy u¿yciu pdftexa
 %define		short_name	pdfslide
 Name:		tetex-latex-%{short_name}
 Version:	0.5
@@ -13,9 +14,9 @@ Source2:	http://sarovar.org/download.php/108/manual-%{version}.pdf
 # Source2-md5:	4a5ab5ad590ed89b421625763f9654d3
 Source3:	http://sarovar.org/download.php/107/manual-%{version}.tex
 # Source3-md5:	6c4b69787c136aadcd08a9312b4067e6
+Requires(post,postun):	/usr/bin/texhash
 Requires:	tetex-latex
 Requires:	tetex-pdftex
-Requires(post,postun):	/usr/bin/texhash
 Obsoletes:	pdfslide
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -23,6 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Presentations with pdftex.
+
+%description -l pl
+Prezentacje przy u¿yciu pdftexa.
 
 %prep
 %setup -q -n %{short_name}
