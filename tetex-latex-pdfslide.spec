@@ -7,7 +7,7 @@ Release:	1
 License:	LaTeX Project Public License
 Group:		Applications/Publishing/TeX
 Source0:	http://www.tug.org/cgi-bin/dirarchive/tex-archive/macros/latex/contrib/%{short_name}.tgz
-# Source0-md5:	17e5e68c48aae41c8c72290a551a01b3
+# Source0-md5:	fbc3f6192eab5c2ef0bf4b23dee1c75b
 Source1:	http://sarovar.org/download.php/106/%{short_name}-%{version}.sty
 # Source1-md5:	81ccc91f65630f01d6ac0e2728e7c5ba
 Source2:	http://sarovar.org/download.php/108/manual-%{version}.pdf
