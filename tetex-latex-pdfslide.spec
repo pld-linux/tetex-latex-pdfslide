@@ -18,6 +18,7 @@ Source3:	http://sarovar.org/download.php/107/manual-%{version}.tex
 # Source3-md5:	6c4b69787c136aadcd08a9312b4067e6
 URL:		http://sarovar.org/projects/pdfslide/
 Requires(post,postun):	/usr/bin/texhash
+Requires:	tetex-format-pdflatex
 Requires:	tetex-latex
 Requires:	tetex-pdftex
 Obsoletes:	pdfslide
