@@ -1,5 +1,5 @@
 Summary:	Presentations with pdftex
-Summary(pl.UTF-8):   Prezentacje przy użyciu pdftexa
+Summary(pl.UTF-8):	Prezentacje przy użyciu pdftexa
 %define		short_name	pdfslide
 Name:		tetex-latex-%{short_name}
 Version:	0.5
