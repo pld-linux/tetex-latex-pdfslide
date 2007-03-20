@@ -1,5 +1,5 @@
 Summary:	Presentations with pdftex
-Summary(pl.UTF-8):	Prezentacje przy u≈ºyciu pdftexa
+Summary(pl):	Prezentacje przy uøyciu pdftexa
 %define		short_name	pdfslide
 Name:		tetex-latex-%{short_name}
 Version:	0.5
@@ -29,8 +29,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Presentations with pdftex.
 
-%description -l pl.UTF-8
-Prezentacje przy u≈ºyciu pdftexa.
+%description -l pl
+Prezentacje przy uøyciu pdftexa.
 
 %prep
 %setup -q -n %{short_name}
